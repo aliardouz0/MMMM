@@ -13,7 +13,9 @@ with open('breeds.pk', 'rb') as f:
 #st.title("Image Classification Witt VGG16 transfer learning")
 #st.header("Dog race imaage classification example")
 #st.text("Upload an dog image for image classification ")
-
+url = 'https://drive.google.com/u/0/uc?id=1DKFnygreq69uPJTv882JSNUn30jOD_QL&export=download'
+output = 'model.h5'
+gdown.download(url, output, quiet=False)
 def main():
     # Render the readme as markdown using st.markdown.
 	readme_text = st.markdown("# \n")
@@ -22,9 +24,9 @@ def main():
 	st.text("Upload an dog image for image classification ")
 	#intro_markdown = read_markdown_file("intructions for tha app.md")
     #st.markdown(intro_markdown, unsafe_allow_html=True)
-	url = 'https://drive.google.com/u/0/uc?id=1DKFnygreq69uPJTv882JSNUn30jOD_QL&export=download'
-	output = 'model.h5'
-	gdown.download(url, output, quiet=False)
+	#url = 'https://drive.google.com/u/0/uc?id=1DKFnygreq69uPJTv882JSNUn30jOD_QL&export=download'
+	#output = 'model.h5'
+	#gdown.download(url, output, quiet=False)
 	#urllib.request.urlretrieve(
         #'https://raw.github.com/aliardouz0/MMMM/main/tl_best_model__xx8_prpr.h5', 'model.h5')
 	#MODEL_PATH = './model.h5'
