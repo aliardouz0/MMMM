@@ -9,5 +9,5 @@ cloudpickle
 keras
 tensorflow
 numpy
-PIL
+pillow
 scipy
