@@ -22,7 +22,7 @@ def main():
 	st.text("Upload an dog image for image classification ")
 	#intro_markdown = read_markdown_file("intructions for tha app.md")
     #st.markdown(intro_markdown, unsafe_allow_html=True)
-	url = 'https://drive.google.com/file/d/1DKFnygreq69uPJTv882JSNUn30jOD_QL/view?usp=sharing'
+	url = 'https://drive.google.com/u/0/uc?id=1DKFnygreq69uPJTv882JSNUn30jOD_QL&export=download'
 	output = 'model.h5'
 	gdown.download(url, output, quiet=False)
 	#urllib.request.urlretrieve(
