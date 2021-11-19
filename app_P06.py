@@ -61,12 +61,12 @@ def run_the_app():
 		st.image(image, caption='Uploaded image.', use_column_width=True)
 		st.write("")
 		st.write("Classifying...")
-		label = teachable_machine_classification(image, 'tl_best_model__xx8_prpr.h5')
+		label = teachable_machine_classification(image, 'model.h5.h5')
 		st.write(label)
 		
 def teachable_machine_classification(img, weights_file):
 	# Load the model
-	model = keras.models.load_model('tl_best_model__xx8_prpr.h5')
+	model = keras.models.load_model('/app/mmmm/model.h5')
 	# Create the array of the right shape to feed into the keras model
 	data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 	image = img
