@@ -1,0 +1,13 @@
+streamlit==0.86
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+nltk
+bs4
+cloudpickle
+keras
+tensorflow
+numpy
+PIL
+scipy
