@@ -23,10 +23,10 @@ def main():
 	#intro_markdown = read_markdown_file("intructions for tha app.md")
     #st.markdown(intro_markdown, unsafe_allow_html=True)
 
-	urllib.request.urlretrieve(
-        'https://raw.github.com/aliardouz0/MMMM/main/tl_best_model__xx8_prpr.h5', 'model.h5')
-	MODEL_PATH = './model.h5'
-	sw = keras.models.load_model(MODEL_PATH)
+	#urllib.request.urlretrieve(
+        #'https://raw.github.com/aliardouz0/MMMM/main/tl_best_model__xx8_prpr.h5', 'model.h5')
+	#MODEL_PATH = './model.h5'
+	#sw = keras.models.load_model(MODEL_PATH)
 	#sw = keras.models.load_model(urlopen("https://raw.github.com/aliardouz0/MMMM/main/tl_best_model__xx8_prpr.h5"))
 	#sw = keras.models.load_model('./tl_best_model__xx8_prpr.h5')
     #clf = pickle.load(urlopen("https://raw.github.com/aliardouz0/IML-P05/main/clf.pk"))
