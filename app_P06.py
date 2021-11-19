@@ -1,5 +1,6 @@
 import streamlit as st
 from keras.applications.vgg16 import preprocess_input
+from pillow import Image, ImageOps
 
 import keras
 from PIL import Image, ImageOps
