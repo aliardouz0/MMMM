@@ -61,7 +61,7 @@ def run_the_app():
 		st.image(image, caption='Uploaded image.', use_column_width=True)
 		st.write("")
 		st.write("Classifying...")
-		label = teachable_machine_classification(image, 'model.h5.h5')
+		label = teachable_machine_classification(image, 'model.h5')
 		st.write(label)
 		
 def teachable_machine_classification(img, weights_file):
